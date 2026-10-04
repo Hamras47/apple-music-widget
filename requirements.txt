@@ -1,0 +1,13 @@
+# Apple Music widget -- runtime dependencies.
+#
+# The face is drawn with pillow into a per-pixel alpha layered window (as the clock does), so
+# there is no pywebview: a WebView2 window cannot be see-through.  The winrt packages are the
+# one addition over the other widgets, and the reason this widget can exist at all: they are
+# how Python reads Windows' media session, which is where Apple Music reports what it plays.
+pystray==0.19.5
+pillow==12.3.0
+winrt-runtime==3.2.1
+winrt-Windows.Foundation==3.2.1
+winrt-Windows.Foundation.Collections==3.2.1
+winrt-Windows.Media.Control==3.2.1
+winrt-Windows.Storage.Streams==3.2.1
