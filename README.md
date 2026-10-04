@@ -2,7 +2,7 @@
 
 A see-through now-playing widget for **Apple Music on Windows**. It also keeps Apple Music running quietly in the system tray.
 
-![The widget playing a song, in glass and clear styles](docs/screenshot.png)
+![The widget playing a song, in glass and clear styles](docs/nightcall.png)
 
 ## Features
 
